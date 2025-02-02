@@ -1,0 +1,172 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tracker Container */
+.tracker-container {
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Section */
+.title-section h1 {
+    font-size: 28px;
+    color: #d63384;
+}
+
+.title-section h1 span {
+    color: #ff69b4;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Circular Cycle Progress */
+.cycle-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress-ring {
+    width: 120px;
+    height: 120px;
+}
+
+.bg-circle {
+    fill: none;
+    stroke: #ffe6f2;
+    stroke-width: 8;
+}
+
+.progress {
+    fill: none;
+    stroke: #ff69b4;
+    stroke-width: 8;
+    stroke-dasharray: 283; /* Full circumference */
+    stroke-dashoffset: 80; /* Dynamic progress */
+    stroke-linecap: round;
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+.cycle-text {
+    font-size: 14px;
+    font-weight: bold;
+    fill: #d63384;
+}
+
+/* Cycle Health Battery */
+.battery-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.battery {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ff69b4;
+    border-radius: 4px;
+ 
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin: 28px 0;
+}
+
+.battery-level {
+    width: 80%;
+    height: 100%;
+    background: #ff69b4;
+    border-radius: 3px;
+}
+
+/* Calendar */
+.calendar {
+    text-align: center;
+    
+}
+
+.weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.weekdays div {
+    font-weight: bold;
+    padding: 5px;
+    color: #d63384;
+}
+
+.day {
+    padding: 15px;
+    background: #ffe6f2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.day:hover {
+    background: #ffb6c1;
+}
+
+/* Period & Predicted Days */
+.period-day {
+    background: #ff4d6d !important;
+    color: white;
+}
+
+.predicted-day {
+    background: #ffa8c6 !important;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    size: 50%;
+
+}
+
+.cycle-status {
+    margin-bottom: 20px;
+    background: #ffe6f2;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cycle-status h3 {
+    color: #d63384;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.status-box {
+    font-size: 14px;
+    color: #333;
+}
+
+.status-box p {
+    margin: 5px 0;
+}
+
+.status-box span {
+    font-weight: bold;
+}

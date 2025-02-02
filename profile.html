@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - SheCare</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <h2><i class="fas fa-user-circle"></i> My Profile</h2>
+        </div>
+
+        <!-- Profile Image with Edit Option -->
+        <div class="profile-image-container">
+            <img src="default-profile.jpg" id="profile-pic" alt="Profile Image">
+            <label for="upload-pic" class="edit-icon"><i class="fas fa-camera"></i></label>
+            <input type="file" id="upload-pic" accept="image/*">
+        </div>
+
+        <!-- Profile Details -->
+        <div class="profile-card">
+            <div class="profile-box"><strong>Name:</strong> <span id="profile-name">Jane Doe</span></div>
+            <div class="profile-box"><strong>Age:</strong> <span id="profile-age">26</span></div>
+            <div class="profile-box"><strong>Email:</strong> <span id="profile-email">jane.doe@example.com</span></div>
+            <div class="profile-box"><strong>Period Health:</strong> <span id="profile-health">Regular</span></div>
+            <div class="profile-box"><strong>Cycle Length:</strong> <span id="cycle-length">28 Days</span></div>
+            <div class="profile-box"><strong>Last Period:</strong> <span id="last-period">Jan 15, 2025</span></div>
+            <div class="profile-box"><strong>Next Period:</strong> <span id="next-period">Feb 12, 2025</span></div>
+            <div class="profile-box"><strong>Symptoms:</strong> <span id="symptoms">Cramps, Fatigue</span></div>
+            <div class="profile-box"><strong>Notes:</strong> <span id="notes">Feeling better after yoga.</span></div>
+        </div>
+
+        <!-- Edit Profile Button -->
+        <button id="edit-profile-btn"><i class="fas fa-edit"></i> Edit Profile</button>
+    </div>
+
+    <!-- Modal for Editing Profile -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <h3>Edit Profile</h3>
+            <label id="edit-label"></label>
+            <input type="text" id="edit-input">
+            <div class="modal-buttons">
+                <button id="next-btn">Next</button>
+                <button id="save-btn">Save</button>
+                <button id="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>

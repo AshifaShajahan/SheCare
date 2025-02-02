@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #fde2e4;
+    color: #ee0b35;
+}
+#search-container {
+    margin-bottom: 20px;
+}
+#search-box {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #ee0b35;
+    border-radius: 5px;
+}
+#search-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ee0b35;
+    color: rgb(240, 174, 174);
+    border: none;
+    border-radius: 5px;
+}
+#search-button:hover {
+    background-color: #d81e3a;
+}
+#recommendations {
+    margin-top: 20px;
+}
+.product {
+    border: 2px solid #ee0b35;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: left;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.filter{
+    display:flex;
+    justify-content: center;
+}
+#price-filter {
+    margin-top: 20px;
+}
+input[type=range] {
+    accent-color: #ee0b35;
+}
+#filter-options {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+}
+#filter-options select {
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px solid #ee0b35;
+    border-radius: 5px;
+    width: 200px;
+}
+#filter-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ee0b35;
+    color: rgb(240, 174, 174);
+    border: none;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+#filter-button:hover {
+    background-color: #d81e3a;
+}

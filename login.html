@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCare - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="logindatabase.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo section with the name -->
+        <div class="logo-section">
+            <div class="logo">
+                <span>She</span>Care
+            </div>
+        </div>
+
+        <!-- Login container -->
+        <div class="login-container">
+            <h1 id="hello">Login to Your Account</h1>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="email" name="username" required placeholder="Enter your username" aria-label="Username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password" autocomplete="current-password" aria-label="Password">
+                </div>
+                <div class="forgot-password">
+                    <a href="/forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" id="submit" class="submit-btn" aria-label="Login">Login</button>
+            </form>
+            <div class="signup-link">
+                <p>Don't have an account? <a href="/signup">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

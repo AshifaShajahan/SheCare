@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCare - Track Her</title>
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="tracker-container">
+        <!-- Title Section -->
+        <div class="title-section">
+            <h1>Track <span>Her</span></h1>
+            <p class="subtitle">Stay Ahead of Your Cycle</p>
+        </div>
+
+        <!-- Circular Cycle Progress -->
+        <div class="header-container">
+            <div class="cycle-visual">
+                <svg viewBox="0 0 100 100" class="progress-ring">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress" cx="50" cy="50" r="45"></circle>
+                    <text x="50" y="55" text-anchor="middle" class="cycle-text">Day 12</text>
+                </svg>
+                <p>Current Cycle Day</p>
+            </div>
+            <!-- Cycle Health Battery -->
+            <div class="battery-container">
+                
+                <div class="battery">
+                    <div class="battery-level"></div>
+                </div>
+                <p>Cycle Health Check</p>
+            </div>
+        </div>
+        <div class="cycle-status">
+            <h3>Cycle Status</h3>
+            <div class="status-box">
+                <p><strong>Cycle Regularity:</strong> <span id="irregularity-status">Regular</span></p>
+                <p><strong>Ovulation Status:</strong> <span id="ovulation-status">Not Ovulating</span></p>
+                <p><strong>Pregnancy Prediction:</strong> <span id="pregnancy-status">No</span></p>
+            </div>
+        </div>
+
+        <!-- Interactive Calendar -->
+        <div class="calendar">
+            <h2 id="current-month">February 2025</h2>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div>
+                <div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div class="days" id="calendar-days"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style3.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SheCare</title>
+  
+  <!-- FontAwesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar with Custom Hamburger Icon -->
+    <div class="sidebar" id="sidebar">
+      <button class="close-btn" id="close-btn">&times;</button>
+      <div class="profile-image-container">
+        <!-- Replace 'default-profile.jpg' with your actual profile image source -->
+        <img src="img2.png" alt="Profile" class="profile-pic" />
+        <span class="plus-icon"><i class="fas fa-plus"></i></span>
+      </div>
+      <a href="profile.html"><i class="fas fa-user"></i> Profile</a>
+      <a href="#"><i class="fas fa-cog"></i> Settings</a>
+      <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+
+    <!-- Hamburger Icon Button -->
+    <div class="hamburger-container">
+      <button class="hamburger-btn" id="hamburger-btn">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+    
+    <h1>SheCare</h1>
+    <p>Empowering women one step at a time</p>
+    
+    <!-- Navigation Buttons with Standardized Icons -->
+    <div class="nav">
+      <a href="home.html"><i class="fas fa-home"></i> Home</a>
+      <a href="trackher.html"><i class="fas fa-calendar-alt"></i> Track Her</a>
+      <a href="recommend.html"><i class="fas fa-heart"></i> Recommend Me</a>
+      <a href="askme.html"><i class="fas fa-question-circle"></i> Ask Me</a>
+    </div>
+    
+    <!-- About Section -->
+    <div class="about-container">
+      <div class="about-text">
+        <p>SheCare is a smart menstrual tracking and wellness platform designed to help women manage their cycles effortlessly. Get personalized health insights, symptom tracking, and wellness recommendations all in one place.</p>
+      </div>
+      <div class="about-image">
+        <img src="img.jpg" alt="About SheCare" />
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript to toggle sidebar -->
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const closeBtn = document.getElementById('close-btn');
+    
+    hamburgerBtn.addEventListener('click', () => {
+      sidebar.style.left = '0';
+    });
+    
+    closeBtn.addEventListener('click', () => {
+      sidebar.style.left = '-250px';
+    });
+  </script>
+</body>
+</html>
