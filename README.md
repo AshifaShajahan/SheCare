@@ -59,8 +59,8 @@ Includes a dashboard which has profile pic,saved details,settings and logout.Mai
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1gyP255gBuqmzirZXuHZazz6hPH3C8ww1/view?usp=sharing]
+The video demonstrates mainly the frontend working which we implemented.Only few part of the backend have been implemented.
 
 
 # Team Contributions
