@@ -10,6 +10,9 @@
 - Member 2:  Ashifa M S         - Sahrdaya College of Engineering and Technology
 - Member 2:  Anjana Varghese    - Sahrdaya College of Engineering and Technology
 
+### Hosted Project Link
+https://ashifashajahan.github.io/SheCare/
+
 ### Project Description
 Our aim with **SheCare** is to create an all-in-one wellness platform that empowers women to take control of their health. We strive to provide personalized menstrual cycle tracking, relevant product recommendations, and a supportive AI chatbot, helping women better understand and manage their menstrual well-being.
 
@@ -47,7 +50,7 @@ the beginning page we are landed on.
 ![home page](home.png)
 Includes a dashboard which has profile pic,saved details,settings and logout.Mainly it has 4 buttons :-home,recommend me,track her and ask me which on clicking gets redirected to their respective pages
 
-![Recommend me page](recomend3.jpeg)
+![Recommend me page](recomend3.png)
 <br><br>
 
 # Diagrams
