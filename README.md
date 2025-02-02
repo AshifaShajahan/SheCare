@@ -53,15 +53,19 @@ Includes a dashboard which has profile pic,saved details,settings and logout.Mai
 ![Recommend me page](recomend3.png)
 <br><br>
 
-# Diagrams
+# Build Photos
+![Team](team.jpg)
 
 
-# Video[
-(https://drive.google.com/file/d/1XwN-FafpUY9Q33RgKiNf7_KqSeVl-ArN/view?usp=drivesdk)
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
 
 # Team Contributions
 Ann Rose Thomson  -   Frontend Developer (HTML & CSS)
 <br>Ashifa M S  - Frontend Developer (HTML)& handled javascript part<br>
 Anjana Varghese - AI Integration & Backend Developer (JavaScript/Firebase)
 
-Shared Responsibilities   : Collaboration,Testing and Documentation
+
