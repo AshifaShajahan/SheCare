@@ -2,7 +2,7 @@
 
 
 ## Basic Details
-### Team Name: -1000Aura
+### Team Name: -10000Aura
 
 
 ### Team Members
